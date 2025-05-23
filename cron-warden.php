@@ -8,7 +8,7 @@
  * Requires PHP: 8.0
  * Author: HubYura
  * Author URI: https://github.com/HubYura
- * License: GPL v2 or later
+ * License: GPL v2
  * Text Domain: cron-warden
  */
 
