@@ -1,0 +1,288 @@
+# Cron Warden WordPress Plugin - .gitignore
+
+# ===================
+# WordPress Core Files
+# ===================
+wp-config.php
+wp-config-local.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/upgrade/
+
+# WordPress debugging
+debug.log
+error_log
+wp-errors.log
+
+# ===================
+# Plugin Specific
+# ===================
+# Language files (generated)
+languages/*.mo
+languages/*.pot
+
+# Plugin cache
+cache/
+tmp/
+temp/
+
+# Build artifacts
+build/
+dist/
+release/
+*.zip
+
+# ===================
+# Development Tools
+# ===================
+# Composer
+vendor/
+composer.lock
+composer.phar
+
+# Node.js / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Webpack/Gulp/Grunt
+webpack.config.js
+gulpfile.js
+Gruntfile.js
+
+# ===================
+# IDE & Editors
+# ===================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PHPStorm / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# NetBeans
+nbproject/
+.nb-gradle/
+
+# Eclipse
+.project
+.metadata
+.classpath
+.settings/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ===================
+# Operating Systems
+# ===================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon*
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===================
+# PHP Specific
+# ===================
+# PHP temporary files
+*.tmp
+*.temp
+*.cache
+
+# PHP sessions
+sess_*
+
+# PHP errors
+php_errors.log
+error.log
+
+# PHP unit testing
+phpunit.xml
+.phpunit.result.cache
+tests/_output/*
+tests/_support/_generated
+
+# ===================
+# Environment & Config
+# ===================
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Configuration files
+config.local.php
+local-config.php
+.htaccess.local
+
+# Database dumps
+*.sql
+*.sqlite
+*.db
+
+# ===================
+# Version Control
+# ===================
+# Git
+.git/
+.gitattributes
+
+# SVN
+.svn/
+
+# Mercurial
+.hg/
+.hgignore
+
+# ===================
+# Backup & Archive Files
+# ===================
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*.swp
+*.tmp
+
+# Archive files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ===================
+# Documentation Build
+# ===================
+docs/_build/
+docs/build/
+site/
+
+# ===================
+# Security
+# ===================
+# SSL certificates
+*.pem
+*.crt
+*.key
+*.p12
+*.pfx
+
+# SSH keys
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# ===================
+# Performance & Analytics
+# ===================
+# New Relic
+newrelic.ini
+
+# Analytics
+google-analytics.json
+
+# ===================
+# Custom Project Files
+# ===================
+# Plugin specific temporary files
+cron-warden-*.log
+cron-warden.tmp
+
+# Development notes
+TODO.txt
+NOTES.txt
+dev-notes/
+
+# Screenshots for WordPress.org
+screenshots/
+assets/screenshot-*.png
+
+# ===================
+# Miscellaneous
+# ===================
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# ESLint cache
+.eslintcache
